@@ -21,6 +21,17 @@
 
 
 
+           <ImageView
+               android:layout_width="35dp"
+               android:layout_height="35dp"
+               android:padding="5dp"
+               android:scaleType="fitCenter"
+               android:layout_marginLeft="5dp"
+               android:adjustViewBounds="true"
+               android:src="@drawable/camera2"
+               android:onClick="cameraAccess"/>
+
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -40,6 +51,7 @@
                 android:adjustViewBounds="true"
                 android:src="@drawable/instv"
                 android:layout_marginLeft="135dp"
+
                 />
 
             <ImageView
